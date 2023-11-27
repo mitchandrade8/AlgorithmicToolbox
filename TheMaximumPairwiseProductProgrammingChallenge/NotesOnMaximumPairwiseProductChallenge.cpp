@@ -20,4 +20,11 @@
         // ** The only requirement is that it should be significantly different from the main solution.
 
     
-    
+
+// MARK: - Notes on refactoring stress test
+
+    // Made the range of numbers much smaller and made n smaller
+
+    // Checking logic of both algorithms
+        // One is multiplying the wrong number
+            // Seems it can not multiply the same number if the number is the same as the first index!
