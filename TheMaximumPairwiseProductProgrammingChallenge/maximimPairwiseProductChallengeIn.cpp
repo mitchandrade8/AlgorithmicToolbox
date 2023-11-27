@@ -6,6 +6,7 @@ using std::vector;
 using std::cin;
 using std::cout;
 
+
 long long MaxPairwiseProduct(const vector<int>& numbers) {
 
     // Initialize result
@@ -26,6 +27,7 @@ long long MaxPairwiseProduct(const vector<int>& numbers) {
     return result;
 }
 
+
 long long MaxPairwiseProductFast(const vector<int>& numbers) {
     int n = numbers.size();
 
@@ -43,6 +45,7 @@ long long MaxPairwiseProductFast(const vector<int>& numbers) {
 
     return ((long long) (numbers[max_index1])) * numbers[max_index2];
 }
+
 
 int main() {
     int n;
