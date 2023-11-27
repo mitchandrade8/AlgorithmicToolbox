@@ -20,9 +20,14 @@ int MaxPairwiseProduct(const vector<int>& numbers) {
 }
 
 int main() {
-    
+    int n;
+    cin >> n;
+    vector<int> numbers(n);
+    for (int i = 0; i < n; ++i) {
+        cin >> numbers[i];
+    }
 
-
+    int result = MaxPairwiseProduct(numbers);
+    cout << result << "\n";
     return 0;
-
 }
