@@ -52,7 +52,7 @@ int main() {
         vector<int> a;
         for (int i = 0; i < n; ++i) {
             // range of Array allowed: '0-99,999'
-            a.push_back(rand() % 100000);
+            a.push_back(rand() % 10);
         }
 
         // Output the numbers in a single line seperated by ' ' spaces.
