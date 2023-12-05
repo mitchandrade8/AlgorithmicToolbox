@@ -51,12 +51,18 @@ int main() {
     while (true) {
         //  'rand()' = Generate a large random number
             // a number between 0-9 and we add 2: random number between '2-11'
-        int n = rand() % 4 + 2;
+
+        // int n = rand() % 4 + 2;
+        // Increased n:
+        int n = rand() % 100 + 2;
         cout << n << "\n";
         vector<int> a;
         for (int i = 0; i < n; ++i) {
             // range of Array allowed: '0-99,999'
-            a.push_back(rand() % 10);
+            
+            // a.push_back(rand() % 10);
+            // Increased range:
+            a.push_back(rand() % 100000);
         }
 
         // Output the numbers in a single line seperated by ' ' spaces.
